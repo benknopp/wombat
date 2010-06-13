@@ -5,8 +5,15 @@
  * \author	Author: Benjamin Knopp <benjamin@knopp-online.com>
  */
 
+
+/*!
+ * \brief this include file builds the top of the wombat library
+ */
+
 #ifndef WOMBAT_H_
 #define WOMBAT_H_
+
+
 
 
 #endif /* WOMBAT_H_ */
