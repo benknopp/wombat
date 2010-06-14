@@ -20,19 +20,68 @@
 					<folderInfo id="0.1856645890." name="/" resourcePath="">
 						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1525964348" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
 							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1525964348.620030013" name=""/>
-							<builder buildPath="${workspace_loc:/wombat/build}" id="org.eclipse.cdt.build.core.settings.default.builder.1823399645" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="-3" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<builder buildPath="${workspace_loc:/wombat/build}" id="org.eclipse.cdt.build.core.settings.default.builder.1823399645" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="-3" superClass="org.eclipse.cdt.build.core.settings.default.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="build"/>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="bin"/>
+								</outputEntries>
+							</builder>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.344072171" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.284964310" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.204830510" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/eigen2"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wombat/src/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/lib64/gcc/x86_64-pc-linux-gnu/4.4.3/include/g++-v4/"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.859965784" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.831456366" name="UPC" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1145278783" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/eigen2"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wombat/src/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/lib64/gcc/x86_64-pc-linux-gnu/4.4.3/include/g++-v4/"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.420265790" languageId="org.eclipse.cdt.core.parser.upc.upc" languageName="UPC" sourceContentType="org.eclipse.cdt.core.parser.upc.upcSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.1356643337" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1707681931" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/eigen2"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wombat/src/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/lib64/gcc/x86_64-pc-linux-gnu/4.4.3/include/g++-v4/"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1575049764" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.989893633" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.80318054" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/eigen2"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wombat/src/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/lib64/gcc/x86_64-pc-linux-gnu/4.4.3/include/g++-v4/"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1954695132" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="0.1856645890.589450004" name="/" resourcePath="build/bin">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.141311347" name="No ToolChain" superClass="org.eclipse.cdt.build.core.prefbase.toolchain" unusedChildren="">
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1060568932" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs.344072171">
+								<option id="org.eclipse.cdt.build.core.settings.holder.libpaths.1739531402" name="Library Paths" superClass="org.eclipse.cdt.build.core.settings.holder.libpaths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wombat/build/lib}&quot;"/>
+								</option>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1233805374" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder.284964310">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.241767471" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wombat/extern/cute}&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1319024230" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.556194337" name="UPC" superClass="org.eclipse.cdt.build.core.settings.holder.284964310">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1681600502" languageId="org.eclipse.cdt.core.parser.upc.upc" languageName="UPC" sourceContentType="org.eclipse.cdt.core.parser.upc.upcSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.824158958" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder.284964310">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.602382786" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1221720097" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.284964310">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.2097424640" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 						</toolChain>
 					</folderInfo>

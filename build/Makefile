@@ -98,6 +98,32 @@ depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named logging_suite
+
+# Build rule for target.
+logging_suite: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 logging_suite
+.PHONY : logging_suite
+
+# fast build rule for target.
+logging_suite/fast:
+	$(MAKE) -f src/tests/logging/CMakeFiles/logging_suite.dir/build.make src/tests/logging/CMakeFiles/logging_suite.dir/build
+.PHONY : logging_suite/fast
+
+#=============================================================================
+# Target rules for targets named wombat
+
+# Build rule for target.
+wombat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wombat
+.PHONY : wombat
+
+# fast build rule for target.
+wombat/fast:
+	$(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/build
+.PHONY : wombat/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -106,6 +132,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... logging_suite"
+	@echo "... wombat"
 .PHONY : help
 
 

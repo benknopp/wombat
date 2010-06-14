@@ -1,0 +1,2 @@
+/home/bknopp/Workspaces/tracking/wombat/build/src/tests/logging/CMakeFiles/logging_suite.dir
+/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir

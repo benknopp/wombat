@@ -7,23 +7,46 @@ SET(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../BUGS"
   "../CMakeLists.txt"
+  "../ChangeLog"
+  "../README"
+  "../TODO"
   "CMakeFiles/CMakeCCompiler.cmake"
   "CMakeFiles/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeSystem.cmake"
+  "../cmake/FindEigen2.cmake"
+  "../src/CMakeLists.txt"
+  "../src/lib/CMakeLists.txt"
+  "../src/lib/wombat/CMakeLists.txt"
+  "../src/tests/CMakeLists.txt"
+  "../src/tests/logging/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+  "/usr/share/cmake/Modules/CheckFunctionExists.cmake"
+  "/usr/share/cmake/Modules/CheckLibraryExists.cmake"
+  "/usr/share/cmake/Modules/CheckSymbolExists.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake/Modules/FindBoost.cmake"
+  "/usr/share/cmake/Modules/FindOpenGL.cmake"
+  "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake/Modules/FindQt4.cmake"
+  "/usr/share/cmake/Modules/FindX11.cmake"
+  "/usr/share/cmake/Modules/MacroAddFileDependencies.cmake"
   "/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake/Modules/Platform/Linux.cmake"
   "/usr/share/cmake/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake/Modules/Qt4ConfigDependentSettings.cmake"
+  "/usr/share/cmake/Modules/Qt4Macros.cmake"
+  "/usr/share/cmake/Modules/UseQt4.cmake"
+  "/usr/share/opencv/OpenCVConfig.cmake"
   )
 
 # The corresponding makefile is:
@@ -35,8 +58,15 @@ SET(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 SET(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/tests/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/tests/logging/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/lib/wombat/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
+  "src/tests/logging/CMakeFiles/logging_suite.dir/DependInfo.cmake"
+  "src/lib/wombat/CMakeFiles/wombat.dir/DependInfo.cmake"
   )
