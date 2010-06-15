@@ -12,6 +12,7 @@ SET(CMAKE_FORCE_UNIX_PATHS 1)
 SET(CMAKE_C_INCLUDE_PATH
   "/usr/include/opencv"
   "/usr/include/boost-1_42"
+  "../extern/libPtc/include"
   "/usr/include/eigen2"
   "/usr/include/qt4"
   "/usr/include/qt4/QtOpenGL"

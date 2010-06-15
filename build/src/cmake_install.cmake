@@ -36,6 +36,8 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/bknopp/Workspaces/tracking/wombat/build/src/tests/cmake_install.cmake")
   INCLUDE("/home/bknopp/Workspaces/tracking/wombat/build/src/lib/cmake_install.cmake")
+  INCLUDE("/home/bknopp/Workspaces/tracking/wombat/build/src/app/QWombatWorkspace/cmake_install.cmake")
+  INCLUDE("/home/bknopp/Workspaces/tracking/wombat/build/src/app/QPtcPlayer/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -1,1 +1,2 @@
 add_subdirectory(wombat)
+add_subdirectory(wombatui_qt)

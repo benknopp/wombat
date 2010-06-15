@@ -12,6 +12,9 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/basetypes/stateSpace/CircularDouble.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/basetypes/stateSpace/CircularDouble.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/basetypes/stateSpace/LimitedDouble.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/basetypes/stateSpace/LimitedDouble.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/basetypes/stateSpace/ReflectiveDouble.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/basetypes/stateSpace/ReflectiveDouble.cpp.o"
+  "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelReader.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o"
+  "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelspaceReader.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o"
+  "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelspaceWriter.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Body.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/body/Body.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/BodyNodeTree.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/body/BodyNodeTree.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/BodyNodes.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/body/BodyNodes.cpp.o"
@@ -21,7 +24,6 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/BodyStructures.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStructures.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Configurators/AbstractBodyConfigurator.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/AbstractBodyConfigurator.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Configurators/Native/NativeBodyConfigurator.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/NativeBodyConfigurator.cpp.o"
-  "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Configurators/Native/createSimpleNativeBody.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Parts/AbstractBodyPart.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/body/Parts/AbstractBodyPart.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Parts/CylinderBodyPart.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/body/Parts/CylinderBodyPart.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Parts/EllipsoidBodyPart.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/body/Parts/EllipsoidBodyPart.cpp.o"
@@ -36,6 +38,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/helpers/messaging/StandardMessageWriter.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/helpers/messaging/StandardMessageWriter.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/helpers/opengl/GLUtils.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/helpers/opengl/GLUtils.cpp.o"
   "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/math/transform.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/math/transform.cpp.o"
+  "/home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/voxels/functions/SymmetricVoxelspaceIntersector.cpp" "/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

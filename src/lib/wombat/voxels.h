@@ -10,9 +10,14 @@
 
 #include "voxels/Voxel.hpp"
 #include "voxels/Voxelspace.hpp"
+#include "voxels/VoxelspaceMeta.h"
 #include "voxels/VoxelValueReflections.h"
 #include "voxels/VoxelValues.h"
 #include "voxels/functions/SymmetricVoxelspaceIntersector.h"
 #include "voxels/functions/VoxelspaceIntersector.h"
+
+#include "bindings/ptc/VoxelspaceReader.hpp"
+#include "bindings/ptc/VoxelspaceWriter.h"
+#include "bindings/ptc/VoxelReader.h"
 
 #endif /* VOXELS_H_ */

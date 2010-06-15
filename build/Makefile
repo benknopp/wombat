@@ -124,6 +124,58 @@ wombat/fast:
 	$(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/build
 .PHONY : wombat/fast
 
+#=============================================================================
+# Target rules for targets named wombatui_qt
+
+# Build rule for target.
+wombatui_qt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wombatui_qt
+.PHONY : wombatui_qt
+
+# fast build rule for target.
+wombatui_qt/fast:
+	$(MAKE) -f src/lib/wombatui_qt/CMakeFiles/wombatui_qt.dir/build.make src/lib/wombatui_qt/CMakeFiles/wombatui_qt.dir/build
+.PHONY : wombatui_qt/fast
+
+#=============================================================================
+# Target rules for targets named wombatWorkspace
+
+# Build rule for target.
+wombatWorkspace: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wombatWorkspace
+.PHONY : wombatWorkspace
+
+# fast build rule for target.
+wombatWorkspace/fast:
+	$(MAKE) -f src/app/QWombatWorkspace/CMakeFiles/wombatWorkspace.dir/build.make src/app/QWombatWorkspace/CMakeFiles/wombatWorkspace.dir/build
+.PHONY : wombatWorkspace/fast
+
+#=============================================================================
+# Target rules for targets named ptcPlayer
+
+# Build rule for target.
+ptcPlayer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ptcPlayer
+.PHONY : ptcPlayer
+
+# fast build rule for target.
+ptcPlayer/fast:
+	$(MAKE) -f src/app/QPtcPlayer/CMakeFiles/ptcPlayer.dir/build.make src/app/QPtcPlayer/CMakeFiles/ptcPlayer.dir/build
+.PHONY : ptcPlayer/fast
+
+#=============================================================================
+# Target rules for targets named Ptc
+
+# Build rule for target.
+Ptc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Ptc
+.PHONY : Ptc
+
+# fast build rule for target.
+Ptc/fast:
+	$(MAKE) -f extern/libPtc/CMakeFiles/Ptc.dir/build.make extern/libPtc/CMakeFiles/Ptc.dir/build
+.PHONY : Ptc/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -134,6 +186,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... logging_suite"
 	@echo "... wombat"
+	@echo "... wombatui_qt"
+	@echo "... wombatWorkspace"
+	@echo "... ptcPlayer"
+	@echo "... Ptc"
 .PHONY : help
 
 

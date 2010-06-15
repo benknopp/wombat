@@ -24,9 +24,13 @@ cute::suite make_suite_logging_suite(){
 
     cute::ide_listener lis;
     cute::makeRunner(lis)(s, "Logging and Messaging Suite");
+
+    return s;
 }
 
 int main(){
     make_suite_logging_suite();
+
+    return 0;
 }
 

@@ -1,2 +1,6 @@
+/home/bknopp/Workspaces/tracking/wombat/build/extern/libPtc/CMakeFiles/Ptc.dir
 /home/bknopp/Workspaces/tracking/wombat/build/src/tests/logging/CMakeFiles/logging_suite.dir
+/home/bknopp/Workspaces/tracking/wombat/build/src/app/QPtcPlayer/CMakeFiles/ptcPlayer.dir
 /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat/CMakeFiles/wombat.dir
+/home/bknopp/Workspaces/tracking/wombat/build/src/app/QWombatWorkspace/CMakeFiles/wombatWorkspace.dir
+/home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombatui_qt/CMakeFiles/wombatui_qt.dir

@@ -29,7 +29,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${wombat_SOURCE_DIR}/cmake/")
 # (extern template support is desired)
 ################################################################################
 
-set(GENFLAGS "-march=native -O2 -pipe")
+set(GENFLAGS "-march=native -O2 -pipe -DDEBUG -ggdb")
 
 IF(CMAKE_COMPILER_IS_GNUCC)
     SET(CMAKE_C_FLAGS "${GENFLAGS} ${CMAKE_C_FLAGS} -fmessage-length=0 -Wall -Wextra -std=c++0x")
@@ -59,8 +59,8 @@ include_directories(${Boost_INCLUDE_DIRS})
 # LibPtc
 ################################################################################
 
-# find_package(Ptc)
-# include_directories(${PTC_INCLUDE_DIR})
+find_package(Ptc)
+include_directories(${PTC_INCLUDE_DIR})
 
 ################################################################################
 # LibEigen2
@@ -87,6 +87,16 @@ include( ${QT_USE_FILE} )
 find_package(OpenGL)
 include_directories( ${OPENGL_INCLUDE_DIR} )
 link_libraries( ${OPENGL_LIBRARIES} )
+
+################################################################################
+# GLUT
+################################################################################
+
+find_package(GLUT)
+include_directories( ${GLUT_INCLUDE_DIR} )
+link_libraries( ${GLUT_LIBRARIES} )
+
+
 
 ################################################################################
 # CUTE
@@ -117,6 +127,9 @@ configure_file(ChangeLog ChangeLog.txt)
 
 add_subdirectory(src)
 
+IF (PTC_FOUND)
+    add_subdirectory(extern/libPtc)
+ENDIF (PTC_FOUND)
 ################################################################################
 # Configurable build options
 ################################################################################

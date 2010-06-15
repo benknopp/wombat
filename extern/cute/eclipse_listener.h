@@ -48,7 +48,8 @@ namespace cute {
 		void begin(suite const &t,char const *info){
 			std::cout << std::endl << "#beginning " << info << " " << t.size() << std::endl;
 		}
-		void end(suite const &t, char const *info){
+		//void end(suite const &t, char const *info){
+		void end(suite const &, char const *info){
 			std::cout << std::endl << "#ending " << info << std::endl;
 		}
 		void success(test const &t, char const *msg){

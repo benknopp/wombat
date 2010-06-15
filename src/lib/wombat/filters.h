@@ -14,7 +14,9 @@
 #include "filters/ParticleStorage.hpp"
 #include "filters/RandomParticleExtractor.hpp"
 #include "filters/Particle.hpp"
-#include "filters/Partition.h"
+
+#include "filters/partitions/Partition.h"
+
 #include "filters/AbstractObservationModel.hpp"
 #include "filters/BestParticleExtractor.hpp"
 #include "filters/FilterSpecialization.hpp"

@@ -27,7 +27,7 @@ QMessageWriter::~QMessageWriter()
 }
 
 
-void QMessageWriter::writeMessage( const QString &_message, MessageType _messageType )
+void QMessageWriter::writeMessage( const std::string &_message, MessageType _messageType )
 {
 	QIcon *theIcon = 0;
 	switch (_messageType)
@@ -48,15 +48,15 @@ void QMessageWriter::writeMessage( const QString &_message, MessageType _message
 			break;
 	}
 
-	QString message;
+	std::string message;
 	if( mPrintTimestamps ){
-		 message = QTime::currentTime().toString() + " : " +  _message;
+		 message = QTime::currentTime().toString().toStdString() + " : " +  _message;
 	} else
 	{
 		message = _message;
 	}
 
-	QListWidgetItem *item = new QListWidgetItem( *theIcon, message );
+	QListWidgetItem *item = new QListWidgetItem( *theIcon, QString::fromStdString(message));
 	addItem( item );
 
 	setCurrentRow(count());

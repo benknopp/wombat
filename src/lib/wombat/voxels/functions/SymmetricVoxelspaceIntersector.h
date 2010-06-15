@@ -3,6 +3,7 @@
 
 #include <wombat/basetypes.h>
 #include <wombat/math.h>
+#include <wombat/voxels.h>
 
 namespace wombat
 {

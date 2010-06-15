@@ -25,13 +25,22 @@
 #include "cute_suite.h"
 namespace cute {
 	struct null_listener{ // defines Contract of runner parameter
-		void begin(suite const &s, char const *info){}
-		void end(suite const &s, char const *info){}
-		void start(test const &t){}
-		void success(test const &t,char const *msg){}
-		void failure(test const &t,test_failure const &e){}
-		void error(test const &t,char const *what){}
+		void begin(suite const &, char const *){}
+		void end(suite const &, char const *){}
+		void start(test const &){}
+		void success(test const &,char const *){}
+		void failure(test const &,test_failure const &){}
+		void error(test const &,char const *){}
 	};
+
+//    struct null_listener{ // defines Contract of runner parameter
+//        void begin(suite const &s, char const *info){}
+//        void end(suite const &s, char const *info){}
+//        void start(test const &t){}
+//        void success(test const &t,char const *msg){}
+//        void failure(test const &t,test_failure const &e){}
+//        void error(test const &t,char const *what){}
+//    };
 }
 #endif /* CUTE_LISTENER_H_ */
 

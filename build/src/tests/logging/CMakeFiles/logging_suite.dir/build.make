@@ -87,6 +87,9 @@ bin/logging_suite: /usr/lib64/libSM.so
 bin/logging_suite: /usr/lib64/libICE.so
 bin/logging_suite: /usr/lib64/libX11.so
 bin/logging_suite: /usr/lib64/libXext.so
+bin/logging_suite: /usr/lib64/libglut.so
+bin/logging_suite: /usr/lib64/libXmu.so
+bin/logging_suite: /usr/lib64/libXi.so
 bin/logging_suite: src/tests/logging/CMakeFiles/logging_suite.dir/build.make
 bin/logging_suite: src/tests/logging/CMakeFiles/logging_suite.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../bin/logging_suite"

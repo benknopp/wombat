@@ -601,33 +601,9 @@ src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/NativeBodyConfigu
 src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/NativeBodyConfigurator.cpp.o.provides.build: src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/NativeBodyConfigurator.cpp.o
 .PHONY : src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/NativeBodyConfigurator.cpp.o.provides.build
 
-src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
-src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o: ../src/lib/wombat/body/Configurators/Native/createSimpleNativeBody.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_24)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o"
-	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Configurators/Native/createSimpleNativeBody.cpp
-
-src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.i"
-	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Configurators/Native/createSimpleNativeBody.cpp > CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.i
-
-src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.s"
-	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Configurators/Native/createSimpleNativeBody.cpp -o CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.s
-
-src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o.requires:
-.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o.requires
-
-src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o.provides: src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o.requires
-	$(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o.provides.build
-.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o.provides
-
-src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o.provides.build: src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o
-.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o.provides.build
-
 src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/AbstractBodyConfigurator.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
 src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/AbstractBodyConfigurator.cpp.o: ../src/lib/wombat/body/Configurators/AbstractBodyConfigurator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/AbstractBodyConfigurator.cpp.o"
 	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/body/Configurators/AbstractBodyConfigurator.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Configurators/AbstractBodyConfigurator.cpp
 
@@ -651,7 +627,7 @@ src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/AbstractBodyConfigurator
 
 src/lib/wombat/CMakeFiles/wombat.dir/body/BodyObservationModel.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
 src/lib/wombat/CMakeFiles/wombat.dir/body/BodyObservationModel.cpp.o: ../src/lib/wombat/body/BodyObservationModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/body/BodyObservationModel.cpp.o"
 	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/body/BodyObservationModel.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/BodyObservationModel.cpp
 
@@ -675,7 +651,7 @@ src/lib/wombat/CMakeFiles/wombat.dir/body/BodyObservationModel.cpp.o.provides.bu
 
 src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStateVectorFunctions.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
 src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStateVectorFunctions.cpp.o: ../src/lib/wombat/body/BodyStateVectorFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStateVectorFunctions.cpp.o"
 	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/body/BodyStateVectorFunctions.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/BodyStateVectorFunctions.cpp
 
@@ -699,7 +675,7 @@ src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStateVectorFunctions.cpp.o.provide
 
 src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStateVector.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
 src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStateVector.cpp.o: ../src/lib/wombat/body/BodyStateVector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStateVector.cpp.o"
 	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/body/BodyStateVector.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/BodyStateVector.cpp
 
@@ -723,7 +699,7 @@ src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStateVector.cpp.o.provides.build: 
 
 src/lib/wombat/CMakeFiles/wombat.dir/body/BodyNodeTree.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
 src/lib/wombat/CMakeFiles/wombat.dir/body/BodyNodeTree.cpp.o: ../src/lib/wombat/body/BodyNodeTree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/body/BodyNodeTree.cpp.o"
 	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/body/BodyNodeTree.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/BodyNodeTree.cpp
 
@@ -747,7 +723,7 @@ src/lib/wombat/CMakeFiles/wombat.dir/body/BodyNodeTree.cpp.o.provides.build: src
 
 src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStructures.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
 src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStructures.cpp.o: ../src/lib/wombat/body/BodyStructures.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStructures.cpp.o"
 	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/body/BodyStructures.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/BodyStructures.cpp
 
@@ -771,7 +747,7 @@ src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStructures.cpp.o.provides.build: s
 
 src/lib/wombat/CMakeFiles/wombat.dir/body/Body.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
 src/lib/wombat/CMakeFiles/wombat.dir/body/Body.cpp.o: ../src/lib/wombat/body/Body.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/body/Body.cpp.o"
 	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/body/Body.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/body/Body.cpp
 
@@ -795,7 +771,7 @@ src/lib/wombat/CMakeFiles/wombat.dir/body/Body.cpp.o.provides.build: src/lib/wom
 
 src/lib/wombat/CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
 src/lib/wombat/CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o: ../src/lib/wombat/filters/partitions/Partition.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o"
 	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/filters/partitions/Partition.cpp
 
@@ -816,6 +792,102 @@ src/lib/wombat/CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o.provides
 
 src/lib/wombat/CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o.provides.build: src/lib/wombat/CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o
 .PHONY : src/lib/wombat/CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o.provides.build
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o: ../src/lib/wombat/bindings/ptc/VoxelspaceWriter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelspaceWriter.cpp
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.i"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelspaceWriter.cpp > CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.i
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.s"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelspaceWriter.cpp -o CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.s
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o.requires:
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o.requires
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o.provides: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o.requires
+	$(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o.provides.build
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o.provides
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o.provides.build: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o.provides.build
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o: ../src/lib/wombat/bindings/ptc/VoxelspaceReader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelspaceReader.cpp
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.i"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelspaceReader.cpp > CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.i
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.s"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelspaceReader.cpp -o CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.s
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o.requires:
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o.requires
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o.provides: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o.requires
+	$(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o.provides.build
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o.provides
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o.provides.build: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o.provides.build
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o: ../src/lib/wombat/bindings/ptc/VoxelReader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelReader.cpp
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.i"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelReader.cpp > CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.i
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.s"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/bindings/ptc/VoxelReader.cpp -o CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.s
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o.requires:
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o.requires
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o.provides: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o.requires
+	$(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o.provides.build
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o.provides
+
+src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o.provides.build: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o.provides.build
+
+src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o: src/lib/wombat/CMakeFiles/wombat.dir/flags.make
+src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o: ../src/lib/wombat/voxels/functions/SymmetricVoxelspaceIntersector.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bknopp/Workspaces/tracking/wombat/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o -c /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/voxels/functions/SymmetricVoxelspaceIntersector.cpp
+
+src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.i"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/voxels/functions/SymmetricVoxelspaceIntersector.cpp > CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.i
+
+src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.s"
+	cd /home/bknopp/Workspaces/tracking/wombat/build/src/lib/wombat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bknopp/Workspaces/tracking/wombat/src/lib/wombat/voxels/functions/SymmetricVoxelspaceIntersector.cpp -o CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.s
+
+src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o.requires:
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o.requires
+
+src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o.provides: src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o.requires
+	$(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o.provides.build
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o.provides
+
+src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o.provides.build: src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o
+.PHONY : src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o.provides.build
 
 # Object files for target wombat
 wombat_OBJECTS = \
@@ -842,7 +914,6 @@ wombat_OBJECTS = \
 "CMakeFiles/wombat.dir/body/Parts/EllipsoidBodyPart.cpp.o" \
 "CMakeFiles/wombat.dir/body/Parts/CylinderBodyPart.cpp.o" \
 "CMakeFiles/wombat.dir/body/Configurators/Native/NativeBodyConfigurator.cpp.o" \
-"CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o" \
 "CMakeFiles/wombat.dir/body/Configurators/AbstractBodyConfigurator.cpp.o" \
 "CMakeFiles/wombat.dir/body/BodyObservationModel.cpp.o" \
 "CMakeFiles/wombat.dir/body/BodyStateVectorFunctions.cpp.o" \
@@ -850,7 +921,11 @@ wombat_OBJECTS = \
 "CMakeFiles/wombat.dir/body/BodyNodeTree.cpp.o" \
 "CMakeFiles/wombat.dir/body/BodyStructures.cpp.o" \
 "CMakeFiles/wombat.dir/body/Body.cpp.o" \
-"CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o"
+"CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o" \
+"CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o" \
+"CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o" \
+"CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o" \
+"CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o"
 
 # External object files for target wombat
 wombat_EXTERNAL_OBJECTS =
@@ -878,7 +953,6 @@ lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/Parts/Abstract
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/Parts/EllipsoidBodyPart.cpp.o
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/Parts/CylinderBodyPart.cpp.o
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/NativeBodyConfigurator.cpp.o
-lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/AbstractBodyConfigurator.cpp.o
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/BodyObservationModel.cpp.o
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStateVectorFunctions.cpp.o
@@ -887,12 +961,19 @@ lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/BodyNodeTree.c
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStructures.cpp.o
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/body/Body.cpp.o
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o
+lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o
+lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o
+lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o
+lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o
 lib/libwombat.so.0.4.0: /usr/lib64/libGLU.so
 lib/libwombat.so.0.4.0: /usr/lib64/libGL.so
 lib/libwombat.so.0.4.0: /usr/lib64/libSM.so
 lib/libwombat.so.0.4.0: /usr/lib64/libICE.so
 lib/libwombat.so.0.4.0: /usr/lib64/libX11.so
 lib/libwombat.so.0.4.0: /usr/lib64/libXext.so
+lib/libwombat.so.0.4.0: /usr/lib64/libglut.so
+lib/libwombat.so.0.4.0: /usr/lib64/libXmu.so
+lib/libwombat.so.0.4.0: /usr/lib64/libXi.so
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/build.make
 lib/libwombat.so.0.4.0: src/lib/wombat/CMakeFiles/wombat.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib/libwombat.so"
@@ -928,7 +1009,6 @@ src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.
 src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/body/Parts/EllipsoidBodyPart.cpp.o.requires
 src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/body/Parts/CylinderBodyPart.cpp.o.requires
 src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/NativeBodyConfigurator.cpp.o.requires
-src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o.requires
 src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/AbstractBodyConfigurator.cpp.o.requires
 src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/body/BodyObservationModel.cpp.o.requires
 src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStateVectorFunctions.cpp.o.requires
@@ -937,6 +1017,10 @@ src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.
 src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/body/BodyStructures.cpp.o.requires
 src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/body/Body.cpp.o.requires
 src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/filters/partitions/Partition.cpp.o.requires
+src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o.requires
+src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o.requires
+src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o.requires
+src/lib/wombat/CMakeFiles/wombat.dir/requires: src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o.requires
 .PHONY : src/lib/wombat/CMakeFiles/wombat.dir/requires
 
 src/lib/wombat/CMakeFiles/wombat.dir/clean:

@@ -16,9 +16,14 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeSystem.cmake"
   "../cmake/FindEigen2.cmake"
+  "../cmake/FindPtc.cmake"
+  "../extern/libPtc/CMakeLists.txt"
   "../src/CMakeLists.txt"
+  "../src/app/QPtcPlayer/CMakeLists.txt"
+  "../src/app/QWombatWorkspace/CMakeLists.txt"
   "../src/lib/CMakeLists.txt"
   "../src/lib/wombat/CMakeLists.txt"
+  "../src/lib/wombatui_qt/CMakeLists.txt"
   "../src/tests/CMakeLists.txt"
   "../src/tests/logging/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
@@ -33,6 +38,7 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU.cmake"
   "/usr/share/cmake/Modules/FindBoost.cmake"
+  "/usr/share/cmake/Modules/FindGLUT.cmake"
   "/usr/share/cmake/Modules/FindOpenGL.cmake"
   "/usr/share/cmake/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake/Modules/FindQt4.cmake"
@@ -63,10 +69,18 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "src/tests/logging/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/lib/wombat/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/lib/wombatui_qt/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/app/QWombatWorkspace/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/app/QPtcPlayer/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "extern/libPtc/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
   "src/tests/logging/CMakeFiles/logging_suite.dir/DependInfo.cmake"
   "src/lib/wombat/CMakeFiles/wombat.dir/DependInfo.cmake"
+  "src/lib/wombatui_qt/CMakeFiles/wombatui_qt.dir/DependInfo.cmake"
+  "src/app/QWombatWorkspace/CMakeFiles/wombatWorkspace.dir/DependInfo.cmake"
+  "src/app/QPtcPlayer/CMakeFiles/ptcPlayer.dir/DependInfo.cmake"
+  "extern/libPtc/CMakeFiles/Ptc.dir/DependInfo.cmake"
   )

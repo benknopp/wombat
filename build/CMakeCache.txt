@@ -158,6 +158,18 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 EIGEN2_INCLUDE_DIR:PATH=/usr/include/eigen2
 
 //Path to a file.
+GLUT_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+GLUT_Xi_LIBRARY:FILEPATH=/usr/lib64/libXi.so
+
+//Path to a library.
+GLUT_Xmu_LIBRARY:FILEPATH=/usr/lib64/libXmu.so
+
+//Path to a library.
+GLUT_glut_LIBRARY:FILEPATH=/usr/lib64/libglut.so
+
+//Path to a file.
 OPENGL_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
@@ -173,13 +185,16 @@ OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 OpenCV_DIR:PATH=/usr/share/opencv
 
 //Path to a file.
-PTC_INCLUDE_DIR:PATH=PTC_INCLUDE_DIR-NOTFOUND
+PTC_INCLUDE_DIR:PATH=/home/bknopp/Workspaces/tracking/wombat/extern/libPtc/include
 
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=/home/bknopp/Workspaces/tracking/wombat/build
 
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/bknopp/Workspaces/tracking/wombat
+
+//Dependencies for the target
+Ptc_LIB_DEPENDS:STATIC=general;/usr/lib64/libGLU.so;general;/usr/lib64/libGL.so;general;/usr/lib64/libSM.so;general;/usr/lib64/libICE.so;general;/usr/lib64/libX11.so;general;/usr/lib64/libXext.so;general;/usr/lib64/libglut.so;general;/usr/lib64/libXmu.so;general;/usr/lib64/libXi.so;
 
 //Path to a program.
 QT_DBUSCPP2XML_EXECUTABLE:FILEPATH=/usr/bin/qdbuscpp2xml
@@ -740,10 +755,13 @@ X11_xf86vmode_INCLUDE_PATH:PATH=/usr/include
 wombat_BINARY_DIR:STATIC=/home/bknopp/Workspaces/tracking/wombat/build
 
 //Dependencies for the target
-wombat_LIB_DEPENDS:STATIC=general;/usr/lib64/libGLU.so;general;/usr/lib64/libGL.so;general;/usr/lib64/libSM.so;general;/usr/lib64/libICE.so;general;/usr/lib64/libX11.so;general;/usr/lib64/libXext.so;
+wombat_LIB_DEPENDS:STATIC=general;/usr/lib64/libGLU.so;general;/usr/lib64/libGL.so;general;/usr/lib64/libSM.so;general;/usr/lib64/libICE.so;general;/usr/lib64/libX11.so;general;/usr/lib64/libXext.so;general;/usr/lib64/libglut.so;general;/usr/lib64/libXmu.so;general;/usr/lib64/libXi.so;
 
 //Value Computed by CMake
 wombat_SOURCE_DIR:STATIC=/home/bknopp/Workspaces/tracking/wombat
+
+//Dependencies for the target
+wombatui_qt_LIB_DEPENDS:STATIC=general;/usr/lib64/libGLU.so;general;/usr/lib64/libGL.so;general;/usr/lib64/libSM.so;general;/usr/lib64/libICE.so;general;/usr/lib64/libX11.so;general;/usr/lib64/libXext.so;general;/usr/lib64/libglut.so;general;/usr/lib64/libXmu.so;general;/usr/lib64/libXi.so;
 
 
 ########################
@@ -858,7 +876,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=6
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -898,6 +916,14 @@ FIND_PACKAGE_MESSAGE_DETAILS_Eigen2:INTERNAL=[/usr/include/eigen2][TRUE]
 FIND_PACKAGE_MESSAGE_DETAILS_Qt4:INTERNAL=[/usr/lib64/qt4][/usr/include/qt4][/usr/bin/moc][/usr/bin/uic][/usr/bin/rcc]
 //Details about finding X11
 FIND_PACKAGE_MESSAGE_DETAILS_X11:INTERNAL=[/usr/lib64/libX11.so][/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include]
+//ADVANCED property for variable: GLUT_INCLUDE_DIR
+GLUT_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLUT_Xi_LIBRARY
+GLUT_Xi_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLUT_Xmu_LIBRARY
+GLUT_Xmu_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLUT_glut_LIBRARY
+GLUT_glut_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_INCLUDE_DIR
 OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
@@ -906,6 +932,8 @@ OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_xmesa_INCLUDE_DIR
 OPENGL_xmesa_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PTC_INCLUDE_DIR
+PTC_INCLUDE_DIR-ADVANCED:INTERNAL=1
 QT_BINARY_DIR:INTERNAL=/usr/bin
 //ADVANCED property for variable: QT_DBUSCPP2XML_EXECUTABLE
 QT_DBUSCPP2XML_EXECUTABLE-ADVANCED:INTERNAL=1

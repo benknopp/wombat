@@ -304,6 +304,78 @@ basetypes/stateSpace/ReflectiveDouble.cpp.s:
 	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/basetypes/stateSpace/ReflectiveDouble.cpp.s
 .PHONY : basetypes/stateSpace/ReflectiveDouble.cpp.s
 
+bindings/ptc/VoxelReader.o: bindings/ptc/VoxelReader.cpp.o
+.PHONY : bindings/ptc/VoxelReader.o
+
+# target to build an object file
+bindings/ptc/VoxelReader.cpp.o:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.o
+.PHONY : bindings/ptc/VoxelReader.cpp.o
+
+bindings/ptc/VoxelReader.i: bindings/ptc/VoxelReader.cpp.i
+.PHONY : bindings/ptc/VoxelReader.i
+
+# target to preprocess a source file
+bindings/ptc/VoxelReader.cpp.i:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.i
+.PHONY : bindings/ptc/VoxelReader.cpp.i
+
+bindings/ptc/VoxelReader.s: bindings/ptc/VoxelReader.cpp.s
+.PHONY : bindings/ptc/VoxelReader.s
+
+# target to generate assembly for a file
+bindings/ptc/VoxelReader.cpp.s:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelReader.cpp.s
+.PHONY : bindings/ptc/VoxelReader.cpp.s
+
+bindings/ptc/VoxelspaceReader.o: bindings/ptc/VoxelspaceReader.cpp.o
+.PHONY : bindings/ptc/VoxelspaceReader.o
+
+# target to build an object file
+bindings/ptc/VoxelspaceReader.cpp.o:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.o
+.PHONY : bindings/ptc/VoxelspaceReader.cpp.o
+
+bindings/ptc/VoxelspaceReader.i: bindings/ptc/VoxelspaceReader.cpp.i
+.PHONY : bindings/ptc/VoxelspaceReader.i
+
+# target to preprocess a source file
+bindings/ptc/VoxelspaceReader.cpp.i:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.i
+.PHONY : bindings/ptc/VoxelspaceReader.cpp.i
+
+bindings/ptc/VoxelspaceReader.s: bindings/ptc/VoxelspaceReader.cpp.s
+.PHONY : bindings/ptc/VoxelspaceReader.s
+
+# target to generate assembly for a file
+bindings/ptc/VoxelspaceReader.cpp.s:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceReader.cpp.s
+.PHONY : bindings/ptc/VoxelspaceReader.cpp.s
+
+bindings/ptc/VoxelspaceWriter.o: bindings/ptc/VoxelspaceWriter.cpp.o
+.PHONY : bindings/ptc/VoxelspaceWriter.o
+
+# target to build an object file
+bindings/ptc/VoxelspaceWriter.cpp.o:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.o
+.PHONY : bindings/ptc/VoxelspaceWriter.cpp.o
+
+bindings/ptc/VoxelspaceWriter.i: bindings/ptc/VoxelspaceWriter.cpp.i
+.PHONY : bindings/ptc/VoxelspaceWriter.i
+
+# target to preprocess a source file
+bindings/ptc/VoxelspaceWriter.cpp.i:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.i
+.PHONY : bindings/ptc/VoxelspaceWriter.cpp.i
+
+bindings/ptc/VoxelspaceWriter.s: bindings/ptc/VoxelspaceWriter.cpp.s
+.PHONY : bindings/ptc/VoxelspaceWriter.s
+
+# target to generate assembly for a file
+bindings/ptc/VoxelspaceWriter.cpp.s:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/bindings/ptc/VoxelspaceWriter.cpp.s
+.PHONY : bindings/ptc/VoxelspaceWriter.cpp.s
+
 body/Body.o: body/Body.cpp.o
 .PHONY : body/Body.o
 
@@ -519,30 +591,6 @@ body/Configurators/Native/NativeBodyConfigurator.s: body/Configurators/Native/Na
 body/Configurators/Native/NativeBodyConfigurator.cpp.s:
 	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/NativeBodyConfigurator.cpp.s
 .PHONY : body/Configurators/Native/NativeBodyConfigurator.cpp.s
-
-body/Configurators/Native/createSimpleNativeBody.o: body/Configurators/Native/createSimpleNativeBody.cpp.o
-.PHONY : body/Configurators/Native/createSimpleNativeBody.o
-
-# target to build an object file
-body/Configurators/Native/createSimpleNativeBody.cpp.o:
-	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.o
-.PHONY : body/Configurators/Native/createSimpleNativeBody.cpp.o
-
-body/Configurators/Native/createSimpleNativeBody.i: body/Configurators/Native/createSimpleNativeBody.cpp.i
-.PHONY : body/Configurators/Native/createSimpleNativeBody.i
-
-# target to preprocess a source file
-body/Configurators/Native/createSimpleNativeBody.cpp.i:
-	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.i
-.PHONY : body/Configurators/Native/createSimpleNativeBody.cpp.i
-
-body/Configurators/Native/createSimpleNativeBody.s: body/Configurators/Native/createSimpleNativeBody.cpp.s
-.PHONY : body/Configurators/Native/createSimpleNativeBody.s
-
-# target to generate assembly for a file
-body/Configurators/Native/createSimpleNativeBody.cpp.s:
-	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/body/Configurators/Native/createSimpleNativeBody.cpp.s
-.PHONY : body/Configurators/Native/createSimpleNativeBody.cpp.s
 
 body/Parts/AbstractBodyPart.o: body/Parts/AbstractBodyPart.cpp.o
 .PHONY : body/Parts/AbstractBodyPart.o
@@ -880,6 +928,30 @@ math/transform.cpp.s:
 	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/math/transform.cpp.s
 .PHONY : math/transform.cpp.s
 
+voxels/functions/SymmetricVoxelspaceIntersector.o: voxels/functions/SymmetricVoxelspaceIntersector.cpp.o
+.PHONY : voxels/functions/SymmetricVoxelspaceIntersector.o
+
+# target to build an object file
+voxels/functions/SymmetricVoxelspaceIntersector.cpp.o:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.o
+.PHONY : voxels/functions/SymmetricVoxelspaceIntersector.cpp.o
+
+voxels/functions/SymmetricVoxelspaceIntersector.i: voxels/functions/SymmetricVoxelspaceIntersector.cpp.i
+.PHONY : voxels/functions/SymmetricVoxelspaceIntersector.i
+
+# target to preprocess a source file
+voxels/functions/SymmetricVoxelspaceIntersector.cpp.i:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.i
+.PHONY : voxels/functions/SymmetricVoxelspaceIntersector.cpp.i
+
+voxels/functions/SymmetricVoxelspaceIntersector.s: voxels/functions/SymmetricVoxelspaceIntersector.cpp.s
+.PHONY : voxels/functions/SymmetricVoxelspaceIntersector.s
+
+# target to generate assembly for a file
+voxels/functions/SymmetricVoxelspaceIntersector.cpp.s:
+	cd /home/bknopp/Workspaces/tracking/wombat/build && $(MAKE) -f src/lib/wombat/CMakeFiles/wombat.dir/build.make src/lib/wombat/CMakeFiles/wombat.dir/voxels/functions/SymmetricVoxelspaceIntersector.cpp.s
+.PHONY : voxels/functions/SymmetricVoxelspaceIntersector.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -913,6 +985,15 @@ help:
 	@echo "... basetypes/stateSpace/ReflectiveDouble.o"
 	@echo "... basetypes/stateSpace/ReflectiveDouble.i"
 	@echo "... basetypes/stateSpace/ReflectiveDouble.s"
+	@echo "... bindings/ptc/VoxelReader.o"
+	@echo "... bindings/ptc/VoxelReader.i"
+	@echo "... bindings/ptc/VoxelReader.s"
+	@echo "... bindings/ptc/VoxelspaceReader.o"
+	@echo "... bindings/ptc/VoxelspaceReader.i"
+	@echo "... bindings/ptc/VoxelspaceReader.s"
+	@echo "... bindings/ptc/VoxelspaceWriter.o"
+	@echo "... bindings/ptc/VoxelspaceWriter.i"
+	@echo "... bindings/ptc/VoxelspaceWriter.s"
 	@echo "... body/Body.o"
 	@echo "... body/Body.i"
 	@echo "... body/Body.s"
@@ -940,9 +1021,6 @@ help:
 	@echo "... body/Configurators/Native/NativeBodyConfigurator.o"
 	@echo "... body/Configurators/Native/NativeBodyConfigurator.i"
 	@echo "... body/Configurators/Native/NativeBodyConfigurator.s"
-	@echo "... body/Configurators/Native/createSimpleNativeBody.o"
-	@echo "... body/Configurators/Native/createSimpleNativeBody.i"
-	@echo "... body/Configurators/Native/createSimpleNativeBody.s"
 	@echo "... body/Parts/AbstractBodyPart.o"
 	@echo "... body/Parts/AbstractBodyPart.i"
 	@echo "... body/Parts/AbstractBodyPart.s"
@@ -985,6 +1063,9 @@ help:
 	@echo "... math/transform.o"
 	@echo "... math/transform.i"
 	@echo "... math/transform.s"
+	@echo "... voxels/functions/SymmetricVoxelspaceIntersector.o"
+	@echo "... voxels/functions/SymmetricVoxelspaceIntersector.i"
+	@echo "... voxels/functions/SymmetricVoxelspaceIntersector.s"
 .PHONY : help
 
 

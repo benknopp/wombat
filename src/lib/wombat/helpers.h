@@ -10,11 +10,15 @@
 
 #include "helpers/debug.h"
 #include "helpers/messaging/AbstractMessageWriter.h"
+#include "helpers/messaging/StandardMessageWriter.h"
+#include "helpers/messaging/FileMessageWriter.h"
 
 #include "helpers/Logger.h"
 #include "helpers/StringUtils.h"
+#include "helpers/StringSerialization.h"
 #include "helpers/StlAlgorithms.hpp"
 #include "helpers/Timer.h"
+#include "helpers/CmdLineParser.h"
 
 #include "helpers/opengl/GLUtils.h"
 
