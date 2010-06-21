@@ -1,4 +1,0 @@
-2010-06-13  Benjamin Knopp  <benjamin@knopp-online.com>
-
-	* CMakeLists.txt: CMakeLists.txt' added
-	* ChangeLog: added
